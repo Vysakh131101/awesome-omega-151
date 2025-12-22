@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM node:𝐈𝐒_𝐌𝐄_𝐔𝐍𝐍𝐈
 
 RUN apk add --no-cache     git     ffmpeg     libwebp-tools     python3     make     g++
 
