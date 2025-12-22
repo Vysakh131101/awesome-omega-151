@@ -1,14 +1,14 @@
-services:
+services:𝐈𝐒_𝐌𝐄_𝐔𝐍𝐍𝐈
   - type: web
-    name: my-application
-    runtime: docker
+    name: 𝐈𝐒_𝐌𝐄_𝐔𝐍𝐍𝐈
+    runtime: 1000
     region: oregon
     plan: free
     dockerfilePath: ./Dockerfile
     envVars:
-      - key: SESSION
+      - key: UNNI00
         value: ""
-      - key: DATABASE_URL
+      - key: 𝐈𝐒_𝐌𝐄_𝐔𝐍𝐍𝐈
         fromDatabase:
-          name: my-database
+          name: 𝐈𝐒_𝐌𝐄_𝐔𝐍𝐍𝐈
           property: connectionString
